@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "allowJs": true,
+    "checkJs": false,
+    "types": [ "node"],
+    "noImplicitThis": false,
+    "lib": ["DOM", "ESNext"],
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.vue", "src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts", "src/*.ts", "src/*.d.ts"],
+  "exclude": ["node_modules"],
+  "vueCompilerOptions": {
+    "target": 2.7
+  }
+}
