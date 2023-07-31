@@ -16,7 +16,7 @@
     "@vitejs/plugin-vue2-jsx": "^1.0.2",
     "unplugin-auto-import": "^0.16.6",
     "vite": "^2.9.15",
-    "vite-plugin-externals": "^0.5.1"
+    "vite-plugin-externals": "^0.6.2"
   },
   "dependencies": {
     "vue": "^2.7.14"
